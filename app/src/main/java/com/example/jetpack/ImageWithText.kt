@@ -1,9 +1,8 @@
 package com.example.jetpack
 
-import androidx.activity.result.contract.ActivityResultContracts.StartIntentSenderForResult
 import androidx.compose.ui.graphics.painter.Painter
 
-data class StoryHighlight(
+data class ImageWithText(
     val image: Painter,
     val text : String
 )
